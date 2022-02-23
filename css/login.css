@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+background-size: 100%;
+background-color: #222222;
+}
+
+#main_text{
+width: 100%;
+display: flex;
+justify-content: center;
+font-size: 80px;
+color: #3EE28A;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+}
+
+#step{
+margin-top: 15%;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 25px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#line{
+    width: 380px;
+    margin-left: 31%;
+    margin-top: 10%; 
+    border: 1px solid #3EE28A;
+}
+
+#name{
+margin-top: 15%;
+margin-bottom: 2%;
+font-family: 'Open Sans', sans-serif;
+font-size: 48px;
+color: #FFFFFF;
+}
+
+#name_input, #name_input2, #name_input3, #name_input2_2 {
+position: absolute;
+width: 88%;
+height: 100px;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+text-align:center;
+color: rgba(255, 255, 255, 0.781);
+background: rgba(255, 255, 255, 0.3);
+
+
+border-radius: 10px;
+}
+
+#enter_with_help{
+    font-size: 40px;
+    margin-top: 5%;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+
+color: #FFFFFF;
+}
+
+button{
+    margin-left: 5%;
+    margin-top: 2%;
+    background: none;
+    outline: none !important;
+}
+
+img{
+    width: 74px;
+    height: 74px;
+    outline:none;
+}
+
+#but_reg{
+margin-top: 10%;
+margin-left: 4%;
+width: 900px;
+height: 100px;
+background: rgba(62, 226, 138, 0.5);
+backdrop-filter: blur(100px);
+color: #FFFFFF;
+font-size: 45px;
+border-radius: 10px;
+}
+
+#license{
+    margin-top: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.input__wrapper {
+    text-align: center;
+  }
+   
+  .input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+   
+  .input__file-icon-wrapper {
+    height: 100px;
+    width: 100px;
+    margin-right: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-right: 1px solid #fff;
+  }
+   
+  .input__file-button-text {
+    line-height: 1;
+    margin-top: 1px;
+    font-size: 35px;
+  }
+   
+  .input__file-button {
+    width: 100%;
+    max-width: 800px;
+    height: 100px;
+    background: rgba(62, 226, 138, 0.5);
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .input__file-icon{
+      height: 50px;
+      width: 50px;
+  }
